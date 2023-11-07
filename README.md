@@ -33,5 +33,15 @@ The Toggle Mode plugin is highly customizable. You can adjust the colors, icons,
 ## License
 This jQuery plugin is open-source and available under the MIT License.
 
+Keywords
+jQuery
+Plugin
+Toggle Switch
+Dark Mode
+Light Mode
+User Preferences
+User Experience
+Accessibility
+
 ## Author
 Biasiolo
