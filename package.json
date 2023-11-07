@@ -1,0 +1,16 @@
+{
+    "name": "jquery-toggle-mode-plugin",
+    "version": "1.0.0",
+    "description": "Toggle Mode - jQuery Plugin for Light and Dark Modes",
+    "main": "main.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Biasiolo/jquery-toggle-switch-plugin"
+    },
+    "keywords": ["jquery", "plugin", "toggle mode", "light mode", "dark mode", "switch"],
+    "author": "Biasiolo",
+    "license": "MIT",
+    "dependencies": {
+      "jquery": "^3.7.1"
+    }
+  }
