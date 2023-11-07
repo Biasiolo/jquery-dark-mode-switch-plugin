@@ -1,0 +1,99 @@
+/* Define o estilo da página, fundo e posicionamento central */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff; /* Cor de fundo inicial (modo claro) */
+  }
+  
+  /* Estilo do botão de alternância */
+  .toggle-switch {
+    display: inline-block;
+    position: relative;
+    width: 80px; /* Aumentando a largura do botão para acomodar o ícone */
+    height: 34px;
+    overflow: hidden; /* Garante que o ícone não fique visível fora do botão */
+  }
+  
+  /* Estilo do input do botão de alternância */
+  .toggle-switch input {
+    display: none;
+  }
+  
+  /* Estilo do controle deslizante do botão de alternância */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #b3b0b0;
+    border-radius: 34px;
+    transition: 0.4s;
+  }
+  
+  /* Estilo da bolinha deslizante */
+  .slider:before {
+    content: "";
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: rgb(7, 7, 7); /* Cor fixa da bolinha (laranja) */
+    border-radius: 50%;
+    transition: 0.4s;
+  }
+  
+  /* Estilo do botão de alternância quando está ativo (ligado) */
+  .toggle-switch input:checked + .slider {
+    background-color: #f5f382; /* Cor de fundo quando ligado */
+  }
+  
+  /* Estilo da bolinha deslizante quando o botão de alternância está ativo */
+  .toggle-switch input:checked + .slider:before {
+    transform: translateX(46px); /* Aumentando a distância para acomodar o ícone da lua */
+  }
+  
+  /* Estilo do ícone de alternância (sol e lua) */
+  .mode-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 80px; /* Tamanho igual ao botão */
+    top: 0;
+    left: 0;
+    transition: transform 0.4s;
+  }
+  
+  /* Estilo do ícone do sol e da lua */
+  .sun-icon,
+  .moon-icon {
+    font-size: 24px; /* Tamanho do ícone */
+    transition: opacity 0.4s;
+    position: absolute;
+    top: 4px;
+    opacity: 0; /* Inicialmente oculto */
+  }
+  
+  /* Estilo do ícone da lua quando o botão está ativo */
+  .moon-icon {
+    right: 4px;
+  }
+  
+  /* Classe para tornar elementos visíveis */
+  .visible {
+    opacity: 1;
+  }
+  
+  /* Estilo do ícone do sol quando o botão está inativo (desligado) */
+  .sun-icon {
+    left: -18px;
+  }
+  
+  
