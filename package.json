@@ -1,6 +1,6 @@
 {
     "name": "jquery-toggle-mode-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Toggle Mode - jQuery Plugin for Light and Dark Modes",
     "main": "main.js",
     "repository": {

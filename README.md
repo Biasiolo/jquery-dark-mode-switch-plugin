@@ -12,7 +12,7 @@ You can install the Toggle Mode jQuery plugin in three simple steps:
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
 Download the Plugin: Download the toggle-mode.js file from this repository or link it from a Content Delivery Network (CDN) in your HTML file.
-<script src="path-to-toggle-mode.js"></script>
+<script src="toggle-mode.js"></script>
 HTML Structure: Create the HTML structure for the toggle switch by adding the following code to your HTML file.
 
 ## Usage
