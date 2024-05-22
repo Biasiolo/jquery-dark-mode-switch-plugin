@@ -1,20 +1,19 @@
-/* Define o estilo da página, fundo e posicionamento central */
 body {
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #ffffff; /* Cor de fundo inicial (modo claro) */
+    background-color: #ffffff; 
   }
   
   /* Estilo do botão de alternância */
   .toggle-switch {
     display: inline-block;
     position: relative;
-    width: 80px; /* Aumentando a largura do botão para acomodar o ícone */
+    width: 80px; 
     height: 34px;
-    overflow: hidden; /* Garante que o ícone não fique visível fora do botão */
+    overflow: hidden; 
   }
   
   /* Estilo do input do botão de alternância */
@@ -43,14 +42,14 @@ body {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: rgb(7, 7, 7); /* Cor fixa da bolinha (laranja) */
+    background-color: rgb(7, 7, 7); 
     border-radius: 50%;
     transition: 0.4s;
   }
   
   /* Estilo do botão de alternância quando está ativo (ligado) */
   .toggle-switch input:checked + .slider {
-    background-color: #f5f382; /* Cor de fundo quando ligado */
+    background-color: #f5f382; 
   }
   
   /* Estilo da bolinha deslizante quando o botão de alternância está ativo */
