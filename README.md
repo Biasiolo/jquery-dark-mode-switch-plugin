@@ -1,6 +1,6 @@
-# Toggle Mode - jQuery Plugin
+# Dark/Light Mode - jQuery Plugin
 
-Toggle Mode is a simple and customizable jQuery plugin that allows users to switch between light and dark modes on your website with ease. It's perfect for enhancing the user experience and accessibility by providing an option to change the display mode according to their preferences.
+Is a simple and customizable jQuery plugin that allows users to switch between light and dark modes on your website with ease. It's perfect for enhancing the user experience and accessibility by providing an option to change the display mode according to their preferences.
 
 For a live demo and examples of customization, please visit the (https://jquery-toggle-switch-plugin.vercel.app/).
 
